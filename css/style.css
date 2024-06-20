@@ -156,3 +156,40 @@ a {
     display: flex;
     justify-content: end;
 }
+
+.action-container {
+    padding: 128px;
+    display: flex;
+    align-items: center;
+}
+
+.action-block {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-button {
+    padding: 10px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+}
